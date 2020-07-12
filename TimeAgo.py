@@ -47,12 +47,12 @@ class TimeAgo:
                 return("Yesterday")
             else:
                 return(f'{self.days} days ago')
-        elif (self.weeks <= 4.3): #4.3 == 52/12  
+        elif (self.weeks <= 4.3):  
             if (self.weeks == 1):
                 return("A week ago")
             else:
                 return(f'{self.weeks} weeks ago')
-        elif (self.months <= 12): #4.3 == 52/12  
+        elif (self.months <= 12):   
             if (self.months == 1):
                 return("A month ago")
             else:
